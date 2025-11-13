@@ -18,3 +18,10 @@
 
 # Write your code here:
 
+age = int(input("write your age: "))
+if(age>=110) or (age<0):
+    print("That must be a mistake.")
+elif(age>=0 and age<=4):
+    print("I suspect you can't write quite yet...")
+else:
+    print("Ok, you are" , age , "years old.")

@@ -30,3 +30,13 @@
 
 # Write your code here:
 
+nr1 = int(input("write the first nr:"))
+nr2 = int(input("write the second nr:"))
+op = input()
+if (op=="add"):
+    print(nr1 + nr2)
+if (op=="multiply"):
+    print(nr1 * nr2)
+if ( op=="subtract"):
+    print(nr1 - nr2)
+    
