@@ -17,3 +17,9 @@
 
 # Write your code here:
 
+nr = int(input("write a nr: "))
+if (nr<0):
+    print(nr*(-1))
+else:
+    print(nr)
+

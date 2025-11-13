@@ -22,3 +22,15 @@
 # Bill and Jean are the same age
 
 # Write your code here:
+
+name1 = input("1st name: ")
+age1 = int(input("1st age: "))
+name2 = input("2nd name: ")
+age2 = int(input("2nd age: "))
+if (age1 == age2):
+    print(name1 , "and" , name2, "are the same age.")
+elif (age1>age2):
+    print("The elder is" , name1)
+else:
+    print("The elder is" , name2)
+

@@ -20,3 +20,12 @@
 # The numbers are equal!
 
 # Write your code here:
+
+nr1 = int(input("write the first nr: "))
+nr2 = int(input("write the second nr: "))
+if (nr1 == nr2):
+    print("The numbers are equal.")
+elif (nr1>nr2):
+    print(nr1)
+else:
+    print(nr2)

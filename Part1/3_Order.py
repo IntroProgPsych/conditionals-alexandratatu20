@@ -26,3 +26,13 @@
 
 # Write your code here:
 
+nr = int(input("write a nr: "))
+if (nr<1000):
+    print("this nr is smaller than 1000")
+if (nr<100):
+     print("this nr is smaller than 100")
+if (nr<10):
+     print("this nr is smaller than 10")
+print("Thank you!")
+  
+
